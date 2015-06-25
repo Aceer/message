@@ -4,6 +4,7 @@
     "description": "PHP classes to send a message, can be used in Anax MVC",
     "keywords": ["framework", "mvc", "anax", "message"],
     "license": "MIT",
+	"homepage": "https://github.com/aceer/message",
     "authors": [
         {
             "name": "Alexander Svensson",
