@@ -1,0 +1,17 @@
+{
+    "name": "aceer/CMeassage",    
+    "type": "library",
+    "description": "PHP classes to send a message, can be used in Anax MVC",
+    "keywords": ["framework", "mvc", "anax", "message"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Svensson",
+            "email": "alexander_svensson85@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    }
+}
