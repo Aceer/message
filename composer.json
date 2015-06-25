@@ -1,5 +1,5 @@
 {
-    "name": "aceer/CMeassage",    
+    "name": "aceer/meassage",    
     "type": "library",
     "description": "PHP classes to send a message, can be used in Anax MVC",
     "keywords": ["framework", "mvc", "anax", "message"],
