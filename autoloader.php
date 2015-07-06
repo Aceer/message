@@ -20,7 +20,7 @@ spl_autoload_register(function ($class) {
     // base directory for the namespace prefix
     $base_dir = __DIR__.'/src/' ;
 
-    echo $base_dir;
+    //echo $base_dir;
 
     // does the class use the namespace prefix?
     $len = strlen($prefix);
@@ -37,7 +37,7 @@ spl_autoload_register(function ($class) {
     // with .php
     $file = $base_dir . str_replace('\\', '/', $relative_class) . '.php';
 
-    echo $file;
+    //echo $file;
 
     // if the file exists, require it
     if (file_exists($file)) {
