@@ -78,11 +78,11 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 	* @return void
 	*
 	*/
-	public function testFalseClass1()
+	public function testCustomClass1()
 	{
 		$ar = [
 				'danger' => 'myDanger',
-				'success' => 'mySucces',
+				'success' => 'mySuccess',
 				'info' => 'myInfo',
 				'warning' => 'myWarning'
 			];
@@ -94,6 +94,6 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 		$t2 = "<div id='displayMessage' class='mySuccess'>Success</div>";
 
 
-		$this->assertFalse($t1, $t2, "Error --------> false custom class success");
+		$this->assertEquals($t1, $t2, "Error --------> false custom class success");
 	}
 };
