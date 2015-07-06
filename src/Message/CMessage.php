@@ -14,7 +14,7 @@ class CMessage
 			$this->dangerClass = $ar['danger'];
 			$this->successClass = $ar['success'];
 			$this->infoClass = $ar['info'];
-			$this->warningClass = $ar['waring'];
+			$this->warningClass = $ar['warning'];
 		}
 	}
 
