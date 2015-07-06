@@ -1,5 +1,7 @@
 # CMessage
 [![Build Status](https://travis-ci.org/Aceer/message.svg?branch=master)](https://travis-ci.org/Aceer/message.svg?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/Aceer/message/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Aceer/message/)
+[![Build Status](https://scrutinizer-ci.com/g/Aceer/message/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/Aceer/message/)
 
 This is a class to show messages with PHP and Javascript.
 Use it with ANAX MVC.
