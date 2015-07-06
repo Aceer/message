@@ -12,7 +12,7 @@ User guide:
 Just download the class and include it in the php autoloader.
 After that create a new object of the class, ex:
 
-	$message = new /Anax/Message/CMessage();
+	$message = new /Aceer/Message/CMessage();
 	
 Then choose what kind of message you want to send (success,danger,warning,info).
 
