@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\Message;
+namespace Aceer\Message;
 
 class CMessage
 {
