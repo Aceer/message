@@ -38,7 +38,7 @@ There are 4 type of messages to send:
 Thay use Twitter Bootstrap css standard but if you want you can make your own
 default css class values:
 
-	$message = new /Anax/Message/CMessage(
+	$message = new /Aceer/Message/CMessage(
 		[
 			"success" => "some css class",
 			"danger" => "some css class",
