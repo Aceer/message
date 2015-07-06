@@ -12,7 +12,7 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 	*/
 	public function testSucccessClass()
 	{
-		$e = new \Aceer\CMessage();
+		$e = new \Aceer\Message\CMessage();
 		$e->success('Hej');
 		$t1 = $_SESSION['displayMessage'];
 		$t2 = "<div id='displayMessage' class='alert alert-success'>Hej</div>";
