@@ -1,4 +1,5 @@
 # CMessage
+[![Build Status](https://travis-ci.org/Aceer/message.svg?branch=master)](https://travis-ci.org/Aceer/message.svg?branch=master)
 This is a class to show messages with PHP and Javascript.
 Use it with ANAX MVC.
 
