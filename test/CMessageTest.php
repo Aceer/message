@@ -17,11 +17,10 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 		$t1 = $_SESSION['displayMessage'];
 		$t2 = "<div id='displayMessage' class='alert alert-success'>Success</div>";
 
-
 		$this->assertEquals($t1, $t2, "Error --------> success message");
 	}
 
-		/**
+	/**
 	* Test 
 	*
 	* @return void
@@ -33,7 +32,6 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 		$e->danger('Danger');
 		$t1 = $_SESSION['displayMessage'];
 		$t2 = "<div id='displayMessage' class='alert alert-danger'>Danger</div>";
-
 
 		$this->assertEquals($t1, $t2, "Error --------> danger message");
 	}
@@ -51,7 +49,6 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 		$t1 = $_SESSION['displayMessage'];
 		$t2 = "<div id='displayMessage' class='alert alert-warning'>Warning</div>";
 
-
 		$this->assertEquals($t1, $t2, "Error --------> Warning message");
 	}
 
@@ -67,7 +64,6 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 		$e->info('Info');
 		$t1 = $_SESSION['displayMessage'];
 		$t2 = "<div id='displayMessage' class='alert alert-info'>Info</div>";
-
 
 		$this->assertEquals($t1, $t2, "Error --------> info message");
 	}
@@ -92,7 +88,6 @@ class CMessageTest extends \PHPUnit_Framework_TestCase
 		$e->success('Success');
 		$t1 = $_SESSION['displayMessage'];
 		$t2 = "<div id='displayMessage' class='mySuccess'>Success</div>";
-
 
 		$this->assertEquals($t1, $t2, "Error --------> false custom class success");
 	}
